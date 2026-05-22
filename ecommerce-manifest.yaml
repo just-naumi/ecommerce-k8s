@@ -64,9 +64,7 @@ data:
 
     INSERT IGNORE INTO users (username, password, role) VALUES
     ('Naufal',      'password123', 'penjual'),
-    ('Ruth',        'password123', 'pembeli'),
-    ('toko_naumi',  'password123', 'penjual'),
-    ('buyer_mpay1', 'password123', 'pembeli');
+    ('Ruth',        'password123', 'pembeli');
 
     INSERT IGNORE INTO products (nama_barang, harga, stok, foto_barang, kategori, penjual_id) VALUES
     ('Sepatu Sneakers Putih',  250000, 45, '', 'Fashion',    1),
